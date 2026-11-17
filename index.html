@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CLUTCH: batting and bowling performance under pressure, with transparent match evidence and a complete factor checklist.">
+  <title>CLUTCH | Cricket under pressure</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="snapshot.js"></script>
+  <script defer src="plotly-basic.min.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#rankings">Skip to rankings</a>
+<header class="masthead">
+  <a class="wordmark" href="#top" aria-label="CLUTCH home"><span class="wickets" aria-hidden="true"><i></i><i></i><i></i></span>CLUTCH</a>
+  <nav aria-label="Page sections"><a href="#rankings">Rankings</a><a href="#player">Player evidence</a><a href="#factors">Every factor</a><a href="#method">Method</a></nav>
+</header>
+<main id="top">
+  <section class="hero" aria-labelledby="hero-title">
+    <div><p class="eyebrow">SUPERR SELECTOR / SEASON 2</p><h1 id="hero-title">Who delivers<br><em>when it matters.</em></h1>
+      <p class="hero-copy">Runs and wickets are the start, not the whole story. Explore the situation, the player's contribution and the evidence behind each selection.</p>
+      <p class="scope-line">Historical data: 2022-01-22 to 2026-11-01. No live match feed.</p></div>
+    <div class="hero-facts" aria-label="Analysis scope">
+      <div><strong>883</strong><span>supplied matches</span></div>
+      <div><strong>821</strong><span>matches with usable scoring evidence</span></div>
+      <div><strong>83 / 70</strong><span>eligible batting / bowling entries</span></div>
+      <p>Separate lists. Same rules for everyone.</p>
+    </div>
+  </section>
+  <p id="notice" class="notice" role="status" hidden></p>
+  <section id="rankings" aria-labelledby="rankings-title">
+    <div class="section-heading"><div><p class="eyebrow">THE SELECTIONS</p><h2 id="rankings-title">Performance under pressure</h2></div><p>Current model scores, not predictions of future form.</p></div>
+    <div class="toolbar" aria-label="Ranking filters">
+      <div class="segmented" role="group" aria-label="Choose batting or bowling"><button type="button" data-role-button="batting" aria-pressed="true" disabled>Batting</button><button type="button" data-role-button="bowling" aria-pressed="false" disabled>Bowling</button></div>
+      <label class="search-label">Find a player<input id="player-search" type="search" placeholder="Search ranked players" disabled></label>
+      <label>Show<select id="ranking-scope" disabled><option value="top">Top 10</option><option value="all">All ranked players</option></select></label>
+      <button id="download" type="button" class="quiet-button" disabled>Download table</button>
+    </div>
+    <noscript><p class="notice">Both ranked lists and the full factor checklist are available below. Enable JavaScript for filters and player selection.</p></noscript>
+    <div class="ranking-grid">
+      <div class="panel ranking-panel"><p id="result-count" class="table-note">All eligible entries are listed. Ranks 1-10 are the selections.</p>
+        <div class="role-table" data-role="batting" id="batting-rankings">
+          <h3 class="static-role-title">Batters</h3>
+          <div class="table-scroll"><table>
+            <caption class="sr-only">Ranked batting performances under the current model</caption>
+            <thead><tr><th scope="col">Rank</th><th scope="col">Player</th><th scope="col">Score</th><th scope="col">Pressure<br>balls</th><th scope="col">Big-match<br>games</th><th scope="col">Top-10<br>repeat rate</th></tr></thead>
+            <tbody><tr data-player="batting-5039" data-rank="1"><td>01</td><th scope="row" class="player-name">Rajat Patidar</th><td class="score">55.68</td><td>413</td><td>13</td><td>77.5%</td></tr>
+<tr data-player="batting-6288" data-rank="2"><td>02</td><th scope="row" class="player-name">Shubman Gill</th><td class="score">55.52</td><td>646</td><td>20</td><td>74.4%</td></tr>
+<tr data-player="batting-50284" data-rank="3"><td>03</td><th scope="row" class="player-name">Vaibhav Sooryavanshi</th><td class="score">55.11</td><td>43</td><td>10</td><td>66.3%</td></tr>
+<tr data-player="batting-3125" data-rank="4"><td>04</td><th scope="row" class="player-name">Nicholas Pooran</th><td class="score">54.57</td><td>499</td><td>18</td><td>59.0%</td></tr>
+<tr data-player="batting-1699" data-rank="5"><td>05</td><th scope="row" class="player-name">Suryakumar Yadav</th><td class="score">54.42</td><td>723</td><td>22</td><td>56.5%</td></tr>
+<tr data-player="batting-3647" data-rank="6"><td>06</td><th scope="row" class="player-name">Shreyas Iyer</th><td class="score">54.17</td><td>704</td><td>12</td><td>52.0%</td></tr>
+<tr data-player="batting-4708" data-rank="7"><td>07</td><th scope="row" class="player-name">Rinku Singh</th><td class="score">53.81</td><td>405</td><td>9</td><td>46.5%</td></tr>
+<tr data-player="batting-6726" data-rank="8"><td>08</td><th scope="row" class="player-name">Romario Shepherd</th><td class="score">53.75</td><td>344</td><td>14</td><td>39.7%</td></tr>
+<tr data-player="batting-2463" data-rank="9"><td>09</td><th scope="row" class="player-name">Ryan Burl</th><td class="score">53.65</td><td>263</td><td>13</td><td>38.1%</td></tr>
+<tr data-player="batting-7897" data-rank="10"><td>10</td><th scope="row" class="player-name">Namboori Tilak Varma</th><td class="score">53.62</td><td>536</td><td>19</td><td>38.0%</td></tr>
+<tr data-player="batting-23450" data-rank="11"><td>11</td><th scope="row" class="player-name">Sai Sudharsan</th><td class="score">53.32</td><td>221</td><td>7</td><td>33.7%</td></tr>
+<tr data-player="batting-7544" data-rank="12"><td>12</td><th scope="row" class="player-name">Venkatesh Iyer</th><td class="score">53.32</td><td>95</td><td>9</td><td>28.7%</td></tr>
+<tr data-player="batting-152" data-rank="13"><td>13</td><th scope="row" class="player-name">Ravindra Jadeja</th><td class="score">53.17</td><td>466</td><td>9</td><td>19.1%</td></tr>
+<tr data-player="batting-796" data-rank="14"><td>14</td><th scope="row" class="player-name">Matthew Wade</th><td class="score">53.09</td><td>119</td><td>6</td><td>27.5%</td></tr>
+<tr data-player="batting-838" data-rank="15"><td>15</td><th scope="row" class="player-name">Glenn Maxwell</th><td class="score">52.88</td><td>179</td><td>13</td><td>25.4%</td></tr>
+<tr data-player="batting-47" data-rank="16"><td>16</td><th scope="row" class="player-name">Virat Kohli</th><td class="score">52.69</td><td>377</td><td>20</td><td>22.6%</td></tr>
+<tr data-player="batting-6651" data-rank="17"><td>17</td><th scope="row" class="player-name">Towhid Hridoy</th><td class="score">52.62</td><td>227</td><td>16</td><td>17.6%</td></tr>
+<tr data-player="batting-7903" data-rank="18"><td>18</td><th scope="row" class="player-name">Shamim Hossain</th><td class="score">52.56</td><td>222</td><td>9</td><td>13.0%</td></tr>
+<tr data-player="batting-4986" data-rank="19"><td>19</td><th scope="row" class="player-name">Rovman Powell</th><td class="score">52.56</td><td>787</td><td>22</td><td>18.4%</td></tr>
+<tr data-player="batting-8" data-rank="20"><td>20</td><th scope="row" class="player-name">Mahendra Singh Dhoni</th><td class="score">52.56</td><td>357</td><td>6</td><td>13.3%</td></tr>
+<tr data-player="batting-1077" data-rank="21"><td>21</td><th scope="row" class="player-name">David Miller</th><td class="score">52.54</td><td>459</td><td>12</td><td>16.5%</td></tr>
+<tr data-player="batting-1107" data-rank="22"><td>22</td><th scope="row" class="player-name">Mohammad Nabi</th><td class="score">52.51</td><td>400</td><td>13</td><td>25.8%</td></tr>
+<tr data-player="batting-2485" data-rank="23"><td>23</td><th scope="row" class="player-name">Babar Azam</th><td class="score">52.40</td><td>424</td><td>13</td><td>20.0%</td></tr>
+<tr data-player="batting-8182" data-rank="24"><td>24</td><th scope="row" class="player-name">Donovan Ferreira</th><td class="score">52.17</td><td>124</td><td>6</td><td>15.1%</td></tr>
+<tr data-player="batting-6396" data-rank="25"><td>25</td><th scope="row" class="player-name">Tim David</th><td class="score">52.16</td><td>360</td><td>11</td><td>12.2%</td></tr>
+<tr data-player="batting-7900" data-rank="26"><td>26</td><th scope="row" class="player-name">Tanzid Hasan</th><td class="score">52.16</td><td>67</td><td>11</td><td>2.5%</td></tr>
+<tr data-player="batting-8101" data-rank="27"><td>27</td><th scope="row" class="player-name">Ashutosh Sharma</th><td class="score">52.12</td><td>233</td><td>6</td><td>9.6%</td></tr>
+<tr data-player="batting-37052" data-rank="28"><td>28</td><th scope="row" class="player-name">Naman Dhir</th><td class="score">52.02</td><td>159</td><td>9</td><td>7.3%</td></tr>
+<tr data-player="batting-4722" data-rank="29"><td>29</td><th scope="row" class="player-name">Rashid Khan</th><td class="score">52.02</td><td>397</td><td>13</td><td>5.4%</td></tr>
+<tr data-player="batting-3374" data-rank="30"><td>30</td><th scope="row" class="player-name">Mark Chapman</th><td class="score">51.94</td><td>209</td><td>12</td><td>3.0%</td></tr>
+<tr data-player="batting-2921" data-rank="31"><td>31</td><th scope="row" class="player-name">Fakhar Zaman</th><td class="score">51.82</td><td>232</td><td>13</td><td>7.1%</td></tr>
+<tr data-player="batting-4246" data-rank="32"><td>32</td><th scope="row" class="player-name">Nitish Rana</th><td class="score">51.80</td><td>291</td><td>7</td><td>9.0%</td></tr>
+<tr data-player="batting-143" data-rank="33"><td>33</td><th scope="row" class="player-name">Dinesh Karthik</th><td class="score">51.78</td><td>339</td><td>12</td><td>5.7%</td></tr>
+<tr data-player="batting-4823" data-rank="34"><td>34</td><th scope="row" class="player-name">Washington Sundar</th><td class="score">51.78</td><td>249</td><td>7</td><td>1.9%</td></tr>
+<tr data-player="batting-3916" data-rank="35"><td>35</td><th scope="row" class="player-name">Jitesh Sharma</th><td class="score">51.74</td><td>282</td><td>11</td><td>11.4%</td></tr>
+<tr data-player="batting-2003" data-rank="36"><td>36</td><th scope="row" class="player-name">Bhanuka Rajapaksa</th><td class="score">51.70</td><td>117</td><td>7</td><td>15.6%</td></tr>
+<tr data-player="batting-2876" data-rank="37"><td>37</td><th scope="row" class="player-name">Axar Patel</th><td class="score">51.68</td><td>550</td><td>12</td><td>3.6%</td></tr>
+<tr data-player="batting-20702" data-rank="38"><td>38</td><th scope="row" class="player-name">Tristan Stubbs</th><td class="score">51.62</td><td>373</td><td>10</td><td>6.7%</td></tr>
+<tr data-player="batting-6280" data-rank="39"><td>39</td><th scope="row" class="player-name">Harry Brook</th><td class="score">51.55</td><td>76</td><td>8</td><td>0.7%</td></tr>
+<tr data-player="batting-2533" data-rank="40"><td>40</td><th scope="row" class="player-name">Najibullah Zadran</th><td class="score">51.46</td><td>141</td><td>5</td><td>1.3%</td></tr>
+<tr data-player="batting-1318" data-rank="41"><td>41</td><th scope="row" class="player-name">Andre Russell</th><td class="score">51.44</td><td>361</td><td>7</td><td>10.4%</td></tr>
+<tr data-player="batting-3091" data-rank="42"><td>42</td><th scope="row" class="player-name">Sahibzada Farhan</th><td class="score">51.41</td><td>141</td><td>11</td><td>2.5%</td></tr>
+<tr data-player="batting-499" data-rank="43"><td>43</td><th scope="row" class="player-name">Shakib Al Hasan</th><td class="score">51.22</td><td>116</td><td>3</td><td>0.4%</td></tr>
+<tr data-player="batting-4847" data-rank="44"><td>44</td><th scope="row" class="player-name">Finn Allen</th><td class="score">51.15</td><td>0</td><td>10</td><td>1.1%</td></tr>
+<tr data-player="batting-4369" data-rank="45"><td>45</td><th scope="row" class="player-name">Shai Hope</th><td class="score">51.14</td><td>387</td><td>15</td><td>5.9%</td></tr>
+<tr data-player="batting-22565" data-rank="46"><td>46</td><th scope="row" class="player-name">Muhammad Waseem</th><td class="score">51.11</td><td>256</td><td>11</td><td>1.0%</td></tr>
+<tr data-player="batting-2639" data-rank="47"><td>47</td><th scope="row" class="player-name">Marcus Stoinis</th><td class="score">51.08</td><td>312</td><td>12</td><td>5.5%</td></tr>
+<tr data-player="batting-4703" data-rank="48"><td>48</td><th scope="row" class="player-name">Rishabh Pant</th><td class="score">51.07</td><td>516</td><td>6</td><td>0.8%</td></tr>
+<tr data-player="batting-5882" data-rank="49"><td>49</td><th scope="row" class="player-name">Afif Hossain</th><td class="score">51.04</td><td>129</td><td>5</td><td>0.0%</td></tr>
+<tr data-player="batting-5553" data-rank="50"><td>50</td><th scope="row" class="player-name">Phil Salt</th><td class="score">51.01</td><td>82</td><td>14</td><td>0.5%</td></tr>
+<tr data-player="batting-768" data-rank="51"><td>51</td><th scope="row" class="player-name">Reeza Hendricks</th><td class="score">51.01</td><td>145</td><td>8</td><td>1.5%</td></tr>
+<tr data-player="batting-1568" data-rank="52"><td>52</td><th scope="row" class="player-name">Kane Williamson</th><td class="score">50.94</td><td>175</td><td>2</td><td>0.7%</td></tr>
+<tr data-player="batting-4755" data-rank="53"><td>53</td><th scope="row" class="player-name">Shivam Dube</th><td class="score">50.69</td><td>397</td><td>14</td><td>2.0%</td></tr>
+<tr data-player="batting-1941" data-rank="54"><td>54</td><th scope="row" class="player-name">Devon Conway</th><td class="score">50.63</td><td>91</td><td>11</td><td>0.5%</td></tr>
+<tr data-player="batting-6819" data-rank="55"><td>55</td><th scope="row" class="player-name">Yashasvi Jaiswal</th><td class="score">50.60</td><td>108</td><td>19</td><td>0.3%</td></tr>
+<tr data-player="batting-6460" data-rank="56"><td>56</td><th scope="row" class="player-name">Ayush Badoni</th><td class="score">50.57</td><td>259</td><td>7</td><td>0.3%</td></tr>
+<tr data-player="batting-4391" data-rank="57"><td>57</td><th scope="row" class="player-name">Liam Livingstone</th><td class="score">50.55</td><td>286</td><td>14</td><td>1.6%</td></tr>
+<tr data-player="batting-1481" data-rank="58"><td>58</td><th scope="row" class="player-name">Kusal Perera</th><td class="score">50.54</td><td>118</td><td>11</td><td>0.1%</td></tr>
+<tr data-player="batting-88" data-rank="59"><td>59</td><th scope="row" class="player-name">Faf du Plessis</th><td class="score">50.47</td><td>566</td><td>14</td><td>1.9%</td></tr>
+<tr data-player="batting-3672" data-rank="60"><td>60</td><th scope="row" class="player-name">Kusal Mendis</th><td class="score">50.45</td><td>204</td><td>26</td><td>0.2%</td></tr>
+<tr data-player="batting-8647" data-rank="61"><td>61</td><th scope="row" class="player-name">Sediqullah Atal</th><td class="score">50.44</td><td>142</td><td>13</td><td>0.0%</td></tr>
+<tr data-player="batting-772" data-rank="62"><td>62</td><th scope="row" class="player-name">Rilee Rossouw</th><td class="score">50.41</td><td>48</td><td>6</td><td>0.0%</td></tr>
+<tr data-player="batting-4007" data-rank="63"><td>63</td><th scope="row" class="player-name">Ryan Rickelton</th><td class="score">50.41</td><td>36</td><td>7</td><td>1.0%</td></tr>
+<tr data-player="batting-4773" data-rank="64"><td>64</td><th scope="row" class="player-name">Jaker Ali Anik</th><td class="score">50.40</td><td>281</td><td>8</td><td>1.3%</td></tr>
+<tr data-player="batting-4736" data-rank="65"><td>65</td><th scope="row" class="player-name">Josh Inglis</th><td class="score">50.36</td><td>46</td><td>8</td><td>0.1%</td></tr>
+<tr data-player="batting-3056" data-rank="66"><td>66</td><th scope="row" class="player-name">Iftikhar Ahmed</th><td class="score">50.35</td><td>169</td><td>7</td><td>1.2%</td></tr>
+<tr data-player="batting-4260" data-rank="67"><td>67</td><th scope="row" class="player-name">Heinrich Klaasen</th><td class="score">50.19</td><td>354</td><td>9</td><td>1.5%</td></tr>
+<tr data-player="batting-3377" data-rank="68"><td>68</td><th scope="row" class="player-name">Babar Hayat</th><td class="score">50.14</td><td>152</td><td>8</td><td>0.0%</td></tr>
+<tr data-player="batting-3954" data-rank="69"><td>69</td><th scope="row" class="player-name">Andrew Balbirnie</th><td class="score">50.14</td><td>84</td><td>10</td><td>0.0%</td></tr>
+<tr data-player="batting-4904" data-rank="70"><td>70</td><th scope="row" class="player-name">Kamindu Mendis</th><td class="score">50.08</td><td>211</td><td>11</td><td>0.0%</td></tr>
+<tr data-player="batting-5939" data-rank="71"><td>71</td><th scope="row" class="player-name">Cameron Green</th><td class="score">50.07</td><td>200</td><td>16</td><td>1.0%</td></tr>
+<tr data-player="batting-4117" data-rank="72"><td>72</td><th scope="row" class="player-name">Ishan Kishan</th><td class="score">50.01</td><td>134</td><td>11</td><td>0.0%</td></tr>
+<tr data-player="batting-1596" data-rank="73"><td>73</td><th scope="row" class="player-name">Moeen Ali</th><td class="score">50.00</td><td>225</td><td>9</td><td>0.4%</td></tr>
+<tr data-player="batting-818" data-rank="74"><td>74</td><th scope="row" class="player-name">Mitchell Marsh</th><td class="score">49.90</td><td>227</td><td>8</td><td>0.1%</td></tr>
+<tr data-player="batting-4101" data-rank="75"><td>75</td><th scope="row" class="player-name">Mitchell Santner</th><td class="score">49.88</td><td>333</td><td>8</td><td>2.0%</td></tr>
+<tr data-player="batting-8221" data-rank="76"><td>76</td><th scope="row" class="player-name">Nitish Reddy</th><td class="score">49.79</td><td>111</td><td>5</td><td>0.0%</td></tr>
+<tr data-player="batting-2101" data-rank="77"><td>77</td><th scope="row" class="player-name">Quinton de Kock</th><td class="score">49.74</td><td>97</td><td>12</td><td>3.6%</td></tr>
+<tr data-player="batting-3024" data-rank="78"><td>78</td><th scope="row" class="player-name">Mohammad Rizwan</th><td class="score">49.73</td><td>293</td><td>9</td><td>0.5%</td></tr>
+<tr data-player="batting-3700" data-rank="79"><td>79</td><th scope="row" class="player-name">Tim Seifert</th><td class="score">49.65</td><td>35</td><td>7</td><td>0.0%</td></tr>
+<tr data-player="batting-25213" data-rank="80"><td>80</td><th scope="row" class="player-name">Dewald Brevis</th><td class="score">49.56</td><td>102</td><td>8</td><td>1.3%</td></tr>
+<tr data-player="batting-8301" data-rank="81"><td>81</td><th scope="row" class="player-name">Asif Khan</th><td class="score">49.33</td><td>102</td><td>7</td><td>0.0%</td></tr>
+<tr data-player="batting-2490" data-rank="82"><td>82</td><th scope="row" class="player-name">Mohammad Nawaz</th><td class="score">49.29</td><td>238</td><td>12</td><td>0.4%</td></tr>
+<tr data-player="batting-2756" data-rank="83"><td>83</td><th scope="row" class="player-name">Shashank Singh</th><td class="score">48.92</td><td>214</td><td>5</td><td>0.7%</td></tr></tbody>
+          </table></div>
+        </div>
+        <div class="role-table" data-role="bowling" id="bowling-rankings">
+          <h3 class="static-role-title">Bowlers</h3>
+          <div class="table-scroll"><table>
+            <caption class="sr-only">Ranked bowling performances under the current model</caption>
+            <thead><tr><th scope="col">Rank</th><th scope="col">Player</th><th scope="col">Score</th><th scope="col">Pressure<br>balls</th><th scope="col">Big-match<br>games</th><th scope="col">Top-10<br>repeat rate</th></tr></thead>
+            <tbody><tr data-player="bowling-4722" data-rank="1"><td>01</td><th scope="row" class="player-name">Rashid Khan</th><td class="score">54.93</td><td>1,140</td><td>20</td><td>77.7%</td></tr>
+<tr data-player="bowling-781" data-rank="2"><td>02</td><th scope="row" class="player-name">Sunil Narine</th><td class="score">54.61</td><td>504</td><td>10</td><td>82.7%</td></tr>
+<tr data-player="bowling-3629" data-rank="3"><td>03</td><th scope="row" class="player-name">Corbin Bosch</th><td class="score">54.40</td><td>145</td><td>6</td><td>69.9%</td></tr>
+<tr data-player="bowling-8009" data-rank="4"><td>04</td><th scope="row" class="player-name">Junaid Siddique</th><td class="score">53.68</td><td>192</td><td>7</td><td>54.8%</td></tr>
+<tr data-player="bowling-4101" data-rank="5"><td>05</td><th scope="row" class="player-name">Mitchell Santner</th><td class="score">53.18</td><td>889</td><td>13</td><td>44.5%</td></tr>
+<tr data-player="bowling-7364" data-rank="6"><td>06</td><th scope="row" class="player-name">Haris Rauf</th><td class="score">53.08</td><td>533</td><td>14</td><td>51.4%</td></tr>
+<tr data-player="bowling-2417" data-rank="7"><td>07</td><th scope="row" class="player-name">Akeal Hosein</th><td class="score">53.02</td><td>426</td><td>16</td><td>38.9%</td></tr>
+<tr data-player="bowling-2933" data-rank="8"><td>08</td><th scope="row" class="player-name">Jasprit Bumrah</th><td class="score">52.98</td><td>686</td><td>10</td><td>42.4%</td></tr>
+<tr data-player="bowling-2681" data-rank="9"><td>09</td><th scope="row" class="player-name">Taskin Ahmed</th><td class="score">52.78</td><td>268</td><td>9</td><td>33.3%</td></tr>
+<tr data-player="bowling-6355" data-rank="10"><td>10</td><th scope="row" class="player-name">Shaheen Afridi</th><td class="score">52.70</td><td>457</td><td>15</td><td>37.2%</td></tr>
+<tr data-player="bowling-28" data-rank="11"><td>11</td><th scope="row" class="player-name">Ishant Sharma</th><td class="score">52.64</td><td>114</td><td>3</td><td>25.6%</td></tr>
+<tr data-player="bowling-2876" data-rank="12"><td>12</td><th scope="row" class="player-name">Axar Patel</th><td class="score">52.41</td><td>928</td><td>16</td><td>24.3%</td></tr>
+<tr data-player="bowling-7327" data-rank="13"><td>13</td><th scope="row" class="player-name">Rasikh Salam</th><td class="score">52.31</td><td>183</td><td>6</td><td>29.0%</td></tr>
+<tr data-player="bowling-3644" data-rank="14"><td>14</td><th scope="row" class="player-name">Kuldeep Yadav</th><td class="score">52.21</td><td>588</td><td>15</td><td>28.0%</td></tr>
+<tr data-player="bowling-2878" data-rank="15"><td>15</td><th scope="row" class="player-name">Mohit Sharma</th><td class="score">52.11</td><td>245</td><td>3</td><td>33.1%</td></tr>
+<tr data-player="bowling-1758" data-rank="16"><td>16</td><th scope="row" class="player-name">Patrick Cummins</th><td class="score">51.95</td><td>895</td><td>9</td><td>32.3%</td></tr>
+<tr data-player="bowling-6669" data-rank="17"><td>17</td><th scope="row" class="player-name">Mohsin Khan</th><td class="score">51.93</td><td>215</td><td>7</td><td>17.1%</td></tr>
+<tr data-player="bowling-5979" data-rank="18"><td>18</td><th scope="row" class="player-name">Abrar Ahmed</th><td class="score">51.89</td><td>306</td><td>10</td><td>14.6%</td></tr>
+<tr data-player="bowling-2490" data-rank="19"><td>19</td><th scope="row" class="player-name">Mohammad Nawaz</th><td class="score">51.83</td><td>346</td><td>15</td><td>19.6%</td></tr>
+<tr data-player="bowling-7690" data-rank="20"><td>20</td><th scope="row" class="player-name">Saim Ayub</th><td class="score">51.76</td><td>222</td><td>11</td><td>5.4%</td></tr>
+<tr data-player="bowling-34485" data-rank="21"><td>21</td><th scope="row" class="player-name">Sufiyan Muqeem</th><td class="score">51.74</td><td>232</td><td>10</td><td>22.3%</td></tr>
+<tr data-player="bowling-4900" data-rank="22"><td>22</td><th scope="row" class="player-name">Wanindu Hasaranga</th><td class="score">51.72</td><td>936</td><td>25</td><td>23.2%</td></tr>
+<tr data-player="bowling-829" data-rank="23"><td>23</td><th scope="row" class="player-name">Mitchell Starc</th><td class="score">51.63</td><td>206</td><td>5</td><td>22.0%</td></tr>
+<tr data-player="bowling-8177" data-rank="24"><td>24</td><th scope="row" class="player-name">Akash Madhwal</th><td class="score">51.59</td><td>186</td><td>5</td><td>23.7%</td></tr>
+<tr data-player="bowling-28756" data-rank="25"><td>25</td><th scope="row" class="player-name">Haider Ali</th><td class="score">51.57</td><td>138</td><td>6</td><td>9.3%</td></tr>
+<tr data-player="bowling-8746" data-rank="26"><td>26</td><th scope="row" class="player-name">Vaibhav Arora</th><td class="score">51.57</td><td>233</td><td>5</td><td>6.8%</td></tr>
+<tr data-player="bowling-3298" data-rank="27"><td>27</td><th scope="row" class="player-name">Jofra Archer</th><td class="score">51.35</td><td>479</td><td>10</td><td>15.9%</td></tr>
+<tr data-player="bowling-4658" data-rank="28"><td>28</td><th scope="row" class="player-name">Nasum Ahmed</th><td class="score">51.34</td><td>114</td><td>6</td><td>7.6%</td></tr>
+<tr data-player="bowling-1596" data-rank="29"><td>29</td><th scope="row" class="player-name">Moeen Ali</th><td class="score">51.14</td><td>254</td><td>10</td><td>9.5%</td></tr>
+<tr data-player="bowling-39657" data-rank="30"><td>30</td><th scope="row" class="player-name">Eshan Malinga</th><td class="score">51.13</td><td>476</td><td>14</td><td>1.1%</td></tr>
+<tr data-player="bowling-5189" data-rank="31"><td>31</td><th scope="row" class="player-name">Faheem Ashraf</th><td class="score">51.13</td><td>136</td><td>7</td><td>6.7%</td></tr>
+<tr data-player="bowling-479" data-rank="32"><td>32</td><th scope="row" class="player-name">Adil Rashid</th><td class="score">51.12</td><td>426</td><td>12</td><td>3.5%</td></tr>
+<tr data-player="bowling-6256" data-rank="33"><td>33</td><th scope="row" class="player-name">Varun Chakravarthy</th><td class="score">51.06</td><td>636</td><td>13</td><td>2.6%</td></tr>
+<tr data-player="bowling-4219" data-rank="34"><td>34</td><th scope="row" class="player-name">Krunal Pandya</th><td class="score">51.04</td><td>383</td><td>10</td><td>13.1%</td></tr>
+<tr data-player="bowling-22471" data-rank="35"><td>35</td><th scope="row" class="player-name">Matthew Humphreys</th><td class="score">51.01</td><td>120</td><td>4</td><td>3.3%</td></tr>
+<tr data-player="bowling-6450" data-rank="36"><td>36</td><th scope="row" class="player-name">Mujeeb Ur Rahman</th><td class="score">50.99</td><td>208</td><td>8</td><td>9.2%</td></tr>
+<tr data-player="bowling-7699" data-rank="37"><td>37</td><th scope="row" class="player-name">Abbas Afridi</th><td class="score">50.99</td><td>265</td><td>7</td><td>0.6%</td></tr>
+<tr data-player="bowling-6097" data-rank="38"><td>38</td><th scope="row" class="player-name">Brydon Carse</th><td class="score">50.98</td><td>97</td><td>3</td><td>1.2%</td></tr>
+<tr data-player="bowling-722" data-rank="39"><td>39</td><th scope="row" class="player-name">Liam Dawson</th><td class="score">50.91</td><td>72</td><td>1</td><td>0.0%</td></tr>
+<tr data-player="bowling-3578" data-rank="40"><td>40</td><th scope="row" class="player-name">Imad Wasim</th><td class="score">50.88</td><td>78</td><td>3</td><td>0.0%</td></tr>
+<tr data-player="bowling-4641" data-rank="41"><td>41</td><th scope="row" class="player-name">Lungi Ngidi</th><td class="score">50.77</td><td>405</td><td>10</td><td>6.9%</td></tr>
+<tr data-player="bowling-7920" data-rank="42"><td>42</td><th scope="row" class="player-name">Nathan Ellis</th><td class="score">50.74</td><td>292</td><td>4</td><td>5.0%</td></tr>
+<tr data-player="bowling-7503" data-rank="43"><td>43</td><th scope="row" class="player-name">Ravi Bishnoi</th><td class="score">50.68</td><td>543</td><td>8</td><td>6.4%</td></tr>
+<tr data-player="bowling-5837" data-rank="44"><td>44</td><th scope="row" class="player-name">Mahedi Hasan</th><td class="score">50.66</td><td>299</td><td>14</td><td>7.9%</td></tr>
+<tr data-player="bowling-4856" data-rank="45"><td>45</td><th scope="row" class="player-name">Benjamin Sears</th><td class="score">50.51</td><td>144</td><td>4</td><td>2.2%</td></tr>
+<tr data-player="bowling-2320" data-rank="46"><td>46</td><th scope="row" class="player-name">Trent Boult</th><td class="score">50.51</td><td>522</td><td>14</td><td>3.7%</td></tr>
+<tr data-player="bowling-1944" data-rank="47"><td>47</td><th scope="row" class="player-name">Keshav Maharaj</th><td class="score">50.49</td><td>270</td><td>5</td><td>3.4%</td></tr>
+<tr data-player="bowling-2687" data-rank="48"><td>48</td><th scope="row" class="player-name">Roston Chase</th><td class="score">50.46</td><td>324</td><td>12</td><td>0.8%</td></tr>
+<tr data-player="bowling-25138" data-rank="49"><td>49</td><th scope="row" class="player-name">Harsh Dubey</th><td class="score">50.43</td><td>84</td><td>3</td><td>0.0%</td></tr>
+<tr data-player="bowling-20704" data-rank="50"><td>50</td><th scope="row" class="player-name">Salman Mirza</th><td class="score">50.42</td><td>61</td><td>3</td><td>0.0%</td></tr>
+<tr data-player="bowling-19316" data-rank="51"><td>51</td><th scope="row" class="player-name">Maheesh Theekshana</th><td class="score">50.28</td><td>894</td><td>30</td><td>2.3%</td></tr>
+<tr data-player="bowling-4229" data-rank="52"><td>52</td><th scope="row" class="player-name">George Linde</th><td class="score">50.26</td><td>114</td><td>4</td><td>0.0%</td></tr>
+<tr data-player="bowling-4807" data-rank="53"><td>53</td><th scope="row" class="player-name">Joshua Little</th><td class="score">50.20</td><td>208</td><td>8</td><td>0.0%</td></tr>
+<tr data-player="bowling-4499" data-rank="54"><td>54</td><th scope="row" class="player-name">Saqib Mahmood</th><td class="score">50.11</td><td>69</td><td>3</td><td>0.0%</td></tr>
+<tr data-player="bowling-7906" data-rank="55"><td>55</td><th scope="row" class="player-name">Rakibul Hasan</th><td class="score">50.09</td><td>72</td><td>6</td><td>0.0%</td></tr>
+<tr data-player="bowling-2985" data-rank="56"><td>56</td><th scope="row" class="player-name">Mark Wood</th><td class="score">50.05</td><td>90</td><td>1</td><td>0.0%</td></tr>
+<tr data-player="bowling-360" data-rank="57"><td>57</td><th scope="row" class="player-name">Bhuvneshwar Kumar</th><td class="score">49.90</td><td>645</td><td>12</td><td>4.7%</td></tr>
+<tr data-player="bowling-1813" data-rank="58"><td>58</td><th scope="row" class="player-name">Deepak Chahar</th><td class="score">49.87</td><td>163</td><td>6</td><td>2.2%</td></tr>
+<tr data-player="bowling-23" data-rank="59"><td>59</td><th scope="row" class="player-name">Piyush Chawla</th><td class="score">49.85</td><td>282</td><td>5</td><td>0.7%</td></tr>
+<tr data-player="bowling-7325" data-rank="60"><td>60</td><th scope="row" class="player-name">Harpreet Brar</th><td class="score">49.84</td><td>169</td><td>4</td><td>1.8%</td></tr>
+<tr data-player="bowling-3641" data-rank="61"><td>61</td><th scope="row" class="player-name">Ben Dwarshuis</th><td class="score">49.80</td><td>105</td><td>2</td><td>0.0%</td></tr>
+<tr data-player="bowling-4373" data-rank="62"><td>62</td><th scope="row" class="player-name">Mustafizur Rahman</th><td class="score">49.55</td><td>611</td><td>17</td><td>1.6%</td></tr>
+<tr data-player="bowling-6284" data-rank="63"><td>63</td><th scope="row" class="player-name">Anukul Roy</th><td class="score">49.48</td><td>95</td><td>3</td><td>0.0%</td></tr>
+<tr data-player="bowling-1612" data-rank="64"><td>64</td><th scope="row" class="player-name">Yuzvendra Chahal</th><td class="score">49.47</td><td>933</td><td>21</td><td>1.5%</td></tr>
+<tr data-player="bowling-5809" data-rank="65"><td>65</td><th scope="row" class="player-name">Naveen ul Haq</th><td class="score">49.36</td><td>347</td><td>11</td><td>1.7%</td></tr>
+<tr data-player="bowling-6512" data-rank="66"><td>66</td><th scope="row" class="player-name">Michael Bracewell</th><td class="score">49.34</td><td>276</td><td>8</td><td>0.7%</td></tr>
+<tr data-player="bowling-5577" data-rank="67"><td>67</td><th scope="row" class="player-name">Sai Kishore</th><td class="score">49.33</td><td>213</td><td>3</td><td>0.0%</td></tr>
+<tr data-player="bowling-278" data-rank="68"><td>68</td><th scope="row" class="player-name">Tim Southee</th><td class="score">49.17</td><td>334</td><td>9</td><td>2.4%</td></tr>
+<tr data-player="bowling-161" data-rank="69"><td>69</td><th scope="row" class="player-name">Dwayne Bravo</th><td class="score">49.01</td><td>94</td><td>2</td><td>0.0%</td></tr>
+<tr data-player="bowling-5944" data-rank="70"><td>70</td><th scope="row" class="player-name">Mohammed Siraj</th><td class="score">48.74</td><td>556</td><td>17</td><td>0.7%</td></tr></tbody>
+          </table></div>
+        </div><p id="empty-ranking" class="empty" hidden>No ranked player matches this search.</p>
+        <p class="fineprint">Top-10 repeat rate: how often a player remains in the top ten across 1,000 shared match redraws. It is not a probability of true ability.</p></div>
+      <figure class="panel score-chart"><figcaption><h3 id="component-title">How the top ten scores add up</h3><p>Weighted points. Neutral total: 50.</p></figcaption>
+        <div class="legend"><span><i class="swatch result"></i>Runs / wickets 50%</span><span><i class="swatch skill"></i>Skill / errors 20%</span><span><i class="swatch big"></i>Big matches 30%</span></div>
+        <div id="component-chart" class="plot" aria-label="Interactive weighted-score comparison" hidden></div>
+        <img id="component-fallback" src="batting-scores.svg" alt="Batting top ten, with the three weighted score parts" width="850" height="495">
+        <p class="fineprint">A close score gap is not a clear separation in ability. Read the match evidence and uncertainty together.</p>
+      </figure>
+    </div>
+  </section>
+  <section id="player" aria-labelledby="player-title">
+    <div class="section-heading"><div><p class="eyebrow">LOOK BEHIND THE RANK</p><h2 id="player-title">Player evidence</h2></div>
+      <label>Choose a player<select id="player-select" disabled><option value="batting-5039">Rajat Patidar</option></select></label></div>
+    <article class="panel profile">
+      <div class="profile-heading"><div><span id="profile-rank" class="rank-label">BATTING / #1</span><h3 id="profile-name">Rajat Patidar</h3><p id="profile-route">Qualifies through pressure-ball and big-match evidence.</p></div>
+        <div class="profile-score"><strong id="profile-score">55.68</strong><span>current score / 100</span></div></div>
+      <div id="profile-metrics" class="profile-metrics">
+        <div><strong>413</strong><span>pressure balls</span></div><div><strong>26</strong><span>pressure matches</span></div>
+        <div><strong>13</strong><span>big-match games</span></div><div><strong>77.5%</strong><span>top-ten repeat rate</span></div>
+      </div>
+      <div id="profile-parts" class="profile-parts"><span>Runs / wickets: 27.61</span><span>Skill / errors: 10.62</span><span>Big matches: 17.44</span></div>
+      <p id="profile-uncertainty" class="uncertainty">95% score range: 52.06 to 58.90. Comparison averages stay fixed.</p>
+      <p id="profile-warning" class="fineprint">A rank reflects this dataset and these rules, not a certain ordering of players.</p>
+    </article>
+    <div id="match-evidence" class="panel match-evidence">
+      <div class="section-heading compact"><div><h3>Which matches moved this score?</h3><p>Including a match can raise or lower the final score.</p></div><label>Season<select id="match-season" disabled><option value="all">All seasons</option></select></label></div>
+      <div id="match-chart" class="plot match-plot" aria-label="Change in score from each match" hidden></div>
+      <img id="match-fallback" src="batting-5039-matches.svg" alt="Match-by-match score influence for Rajat Patidar" width="920" height="300">
+      <div class="table-scroll"><table><caption class="sr-only">Largest match influences for the selected player</caption><thead><tr><th scope="col">Date</th><th scope="col">Opponent</th><th scope="col">Stage</th><th scope="col">Figures</th><th scope="col">Score effect</th></tr></thead><tbody id="match-rows"><tr><td>2022-05-25</td><td>Lucknow Super Giants</td><td>Eliminator</td><td>112 (53 legal balls)</td><td>+1.19</td></tr>
+<tr><td>2026-05-26</td><td>Gujarat Titans</td><td>Qualifier</td><td>93 (33 legal balls)</td><td>+1.13</td></tr>
+<tr><td>2026-04-10</td><td>Rajasthan Royals</td><td>League</td><td>63 (40 legal balls)</td><td>+0.54</td></tr>
+<tr><td>2024-04-25</td><td>Sunrisers Hyderabad</td><td>League</td><td>50 (20 legal balls)</td><td>+0.47</td></tr>
+<tr><td>2024-05-09</td><td>Punjab Kings</td><td>League</td><td>55 (23 legal balls)</td><td>+0.45</td></tr>
+<tr><td>2025-04-10</td><td>Delhi Capitals</td><td>League</td><td>25 (23 legal balls)</td><td>-0.42</td></tr>
+<tr><td>2026-05-31</td><td>Gujarat Titans</td><td>Final</td><td>15 (13 legal balls)</td><td>-0.32</td></tr>
+<tr><td>2022-05-13</td><td>Punjab Kings</td><td>League</td><td>26 (21 legal balls)</td><td>-0.32</td></tr></tbody></table></div>
+      <button type="button" id="more-matches" class="quiet-button" disabled>Show all matches</button>
+      <p class="fineprint">Effect = current score minus score without that match, with earlier comparison averages unchanged. A negative effect need not mean a bad performance. Figures use attributable totals and legal balls, which may differ from official balls faced.</p>
+    </div>
+    <p id="match-unavailable" class="notice" hidden>Match-by-match details are packaged for the selected top ten in each role. Aggregate figures remain available for other ranked players.</p>
+  </section>
+  <section id="factors" aria-labelledby="factors-title">
+    <div class="section-heading"><div><p class="eyebrow">THE COMPLETE CHECKLIST</p><h2 id="factors-title">Every factor considered</h2></div><button id="expand-factors" type="button" class="quiet-button" disabled>Expand all groups</button></div>
+    <p class="section-intro">Some items set pressure, some measure performance, and some check reliability. They do not all add points. Unmeasured and unused ideas are listed separately.</p>
+    <div class="factor-groups"><details class="factor-group" data-kind="checks"><summary>Data and scorekeeping <span>11 items</span></summary><ul class="factor-list"><li data-factor="D01">Unchanged source files; correct match, team and player identities</li><li data-factor="D02">Delivery order and a separate legal-ball count</li><li data-factor="D03">Numeric extras; team runs versus bowler runs</li><li data-factor="D04">Credited wickets; no guessed run-out or retirement blame</li><li data-factor="D05">Scoreboard, innings-ending, ball-count and result-margin checks</li><li data-factor="D06">Rain and revised-target timing</li><li data-factor="D07">Missing information stays unknown, not zero</li><li data-factor="D08">Usable performances in no-result matches</li><li data-factor="D09">Earlier dates only; no same-day or future information</li><li data-factor="D10">Recorded facts, chosen weights and estimates kept separate</li><li data-factor="D11">Full scorecards retained beside competitive-play totals</li></ul></details><details class="factor-group" data-kind="scoring"><summary>Before the match <span>21 items</span></summary><ul class="factor-list"><li data-factor="P01">Competition type and importance: IPL, senior, qualifying and emerging cricket</li><li data-factor="P02">Gradual competition-importance adjustment</li><li data-factor="P03">Championship finals</li><li data-factor="P04">Elimination, Eliminators, semi-finals and a place in the final</li><li data-factor="P05">Qualifier 1 and a genuine second chance</li><li data-factor="P06">Series deciders, survival, early wins, undecided series and dead rubbers</li><li data-factor="P07">Earlier standings, remaining fixtures and win/loss consequences</li><li data-factor="P08">Qualifying versus finishing in the top two</li><li data-factor="P09">The practical IPL 14-point target, not guaranteed qualification</li><li data-factor="P10">Different stakes for the two teams</li><li data-factor="P11">Defending-champion expectations</li><li data-factor="P12">Favourite expectations from earlier team results</li><li data-factor="P13">Longer-term team history, excluding the latest five results</li><li data-factor="P14">Home expectations only when verified; inactive in this dataset</li><li data-factor="P15">Strongest expectation only; expectation/form/rivalry share an 8-point limit</li><li data-factor="P16">Last five results compared with what was expected</li><li data-factor="P17">Stated rivalry ratings and an explicit default</li><li data-factor="P18">Opponent strength, tempered when history is limited</li><li data-factor="P19">Past meetings versus earlier expectations, not raw head-to-head wins</li><li data-factor="P20">Fixture uncertainty, replacement matches and announcement dates</li><li data-factor="P21">Possible versus guaranteed qualification; uncertain net-run-rate ties</li></ul></details><details class="factor-group" data-kind="scoring"><summary>Player responsibility <span>8 items</span></summary><ul class="factor-list"><li data-factor="R01">Captain responsibility</li><li data-factor="R02">Verified vice-captain responsibility; never both leadership roles</li><li data-factor="R03">Earlier batting and bowling ability, calculated separately</li><li data-factor="R04">Likely balls faced/bowled and expected share of the team&#x27;s job</li><li data-factor="R05">Remaining batting strength after dismissed players are removed</li><li data-factor="R06">Bowler quotas, the current over and feasible non-consecutive future overs</li><li data-factor="R07">Confirmed XI, observed alternatives and flagged missing-data fallbacks</li><li data-factor="R08">Reliance capped at 25%, combined responsibility at 35%, player pressure at 100</li></ul></details><details class="factor-group" data-kind="scoring"><summary>Before each delivery <span>18 items</span></summary><ul class="factor-list"><li data-factor="L01">Score, target and runs needed</li><li data-factor="L02">Legal balls left; powerplay, middle overs and death overs</li><li data-factor="L03">Wickets in hand and shortage of batting options</li><li data-factor="L04">Projected first-innings total versus the venue&#x27;s usual total</li><li data-factor="L05">Required rate versus normal scoring pace</li><li data-factor="L06">The bowler&#x27;s own run allowance while defending</li><li data-factor="L07">New versus settled striker</li><li data-factor="L08">Wickets lost close together</li><li data-factor="L09">Consecutive legal team dot balls</li><li data-factor="L10">Recent boundaries and four-plus-run balls</li><li data-factor="L11">Partnership runs, balls and resets after wickets</li><li data-factor="L12">Free hits and their effect on runs, wickets and pressure</li><li data-factor="L13">A brief hitting burst versus sustaining a high rate</li><li data-factor="L14">Reduced weight for very easy or near-impossible chases</li><li data-factor="L15">35% pre-match pressure plus 65% in-match pressure</li><li data-factor="L16">Starting-task pressure; no extra reward for self-created difficulty</li><li data-factor="L17">When sixes alone can no longer win or tie the chase</li><li data-factor="L18">Extras or unusual runs reopening a chase; clinching balls and errors still count</li></ul></details><details class="factor-group" data-kind="scoring"><summary>Runs and wickets <span>14 items</span></summary><ul class="factor-list"><li data-factor="O01">Comparable role, competition, season, innings, phase and batting position</li><li data-factor="O02">Earlier competition and venue scoring rates</li><li data-factor="O03">The current opponent&#x27;s earlier batting or bowling ability</li><li data-factor="O04">Useful chase runs capped at the remaining need</li><li data-factor="O05">Wicket value from balls left, wickets left and batter ability</li><li data-factor="O06">The player&#x27;s earlier ordinary-pressure performance</li><li data-factor="O07">Runs scored/saved and wickets, charged to the correct player</li><li data-factor="O08">Improvement over usual performance, limited by available history</li><li data-factor="O09">A late highlight cannot erase a poor whole innings or spell</li><li data-factor="O10">Repeated good, neutral and poor contributions, not team win percentage</li><li data-factor="O11">Continuous pressure weights above 50; high-pressure label from 60</li><li data-factor="O12">Limited weight per match; small samples stay closer to neutral</li><li data-factor="O13">50% situation-adjusted quality, 30% above-usual play, 20% consistency</li><li data-factor="O14">First-ball failures remain in the record</li></ul></details><details class="factor-group" data-kind="scoring"><summary>Skill and errors <span>10 items</span></summary><ul class="factor-list"><li data-factor="X01">Valid delivery labels; pace/spin consistency; doubtful labels left ungraded</li><li data-factor="X02">Wides, no-balls and confirmed beamers take priority over good-looking outcomes</li><li data-factor="X03">Effective yorkers, variations and ordinary deliveries; death-over context</li><li data-factor="X04">Useful batting responses, difficult balls and defence during a rebuild</li><li data-factor="X05">Scoring after dots and recovery after boundaries; strongest bonus only</li><li data-factor="X06">Full-toss uncertainty: modest effective-ball credit, boundary costs, no guessed height</li><li data-factor="X07">No automatic easy-ball batting bonus for full tosses; illegal-opportunity safeguards</li><li data-factor="X08">Earlier similar deliveries and personal history, matched to the task</li><li data-factor="X09">Big-match, death-over, severe, collapse, dot-chain and run-leak situations</li><li data-factor="X10">Annotation coverage, limited match weight and small-sample adjustment</li></ul></details><details class="factor-group" data-kind="scoring"><summary>Big-match performances <span>14 items</span></summary><ul class="factor-list"><li data-factor="M01">Own-team pre-match pressure above 70; importance weights both good and poor play</li><li data-factor="M02">The full competitive innings or spell, not just dramatic balls</li><li data-factor="M03">Run target fixed at the player&#x27;s first opportunity in each over</li><li data-factor="M04">Normal scoring pace when batting first</li><li data-factor="M05">Required chase pace with limited blame for an earlier shortfall</li><li data-factor="M06">The tighter of normal economy and the runs affordable while defending</li><li data-factor="M07">Limited secondary wicket value and bounded batting-survival credit</li><li data-factor="M08">A real, still-live collapse with time to rebuild</li><li data-factor="M09">Enough personal runs/balls and partnership growth or run share</li><li data-factor="M10">Positive rebuilding quality; half-credit protection capped at 10</li><li data-factor="M11">Inherited defensive difficulty, enough balls and genuinely controlled scoring</li><li data-factor="M12">Individual failure or verified help in a win, including closing actions</li><li data-factor="M13">Small result adjustment: at most 2 big-match points or 0.6 final points</li><li data-factor="M14">Match-importance weighting and a three-match starting evidence allowance</li></ul></details><details class="factor-group" data-kind="checks"><summary>Eligibility and reliability <span>14 items</span></summary><ul class="factor-list"><li data-factor="Q01">At least six relevant matches, 60 legal balls and 30 ordinary-play events</li><li data-factor="Q02">At least four effective appearances; evidence spread across matches</li><li data-factor="Q03">Positive full-performance quality plus supported pressure-ball or big-match results</li><li data-factor="Q04">Separate score and percentile; the 50/20/30 mix is not a win probability</li><li data-factor="Q05">Separate batting/bowling lists, unique IDs and no player-specific overrides</li><li data-factor="Q06">95% individual score ranges from 250 match redraws</li><li data-factor="Q07">Joint rank and top-ten stability from 1,000 shared redraws; tied places handled fairly</li><li data-factor="Q08">Sensitivity to weights, years, competition scope, innings and recent form</li><li data-factor="Q09">Earlier-to-later comparisons; eligibility based only on earlier matches</li><li data-factor="Q10">Independent reconstruction of scores, components and source totals</li><li data-factor="Q11">Seeded test cases, unit/functional/regression tests and cricket-law checks</li><li data-factor="Q12">Remove-one-match checks and both positive and negative match examples</li><li data-factor="Q13">Rejected alternatives retained as evidence, not silently promoted</li><li data-factor="Q14">Dataset coverage, submission names and portal eligibility checked separately</li></ul></details><details class="factor-group" data-kind="not_scored"><summary>Considered, but not separately scored <span>25 items</span></summary><ul class="factor-list"><li data-factor="N01">Actual anxiety, confidence or a claimed psychological cause</li><li data-factor="N02">Measured crowd hostility, media attention or publicity</li><li data-factor="N03">Rarity, prize money, national emotion or upset stories</li><li data-factor="N04">Avoiding a whitewash or facing a former team</li><li data-factor="N05">Exact net-run-rate, winning-margin or chase-by-over targets</li><li data-factor="N06">Live updates from other matches and bonus-point targets</li><li data-factor="N07">Exact field positions, boundary sizes, timeouts and over-rate penalties</li><li data-factor="N08">Actual pitch, weather, dew, wet ball and venue familiarity</li><li data-factor="N09">Unverified DLS timing, reduced budgets and restart stress</li><li data-factor="N10">Super Overs mixed with regular innings</li><li data-factor="N11">Guessed effects of dropped catches, misfields, DRS or disputed calls</li><li data-factor="N12">Unmeasured injury, fatigue, travel or recovery condition</li><li data-factor="N13">Debuts, first finals, selection pressure, farewells, milestones or awards</li><li data-factor="N14">Private plans, strike farming, assigned roles or intended tail protection</li><li data-factor="N15">Unobserved future bowling plans or forced matchups</li><li data-factor="N16">Separate handedness, unfamiliar-role, promotion or personal-familiarity penalties</li><li data-factor="N17">Extra boundary-drought, rising-required-rate or expensive-over bonuses</li><li data-factor="N18">Earlier flat pre-match weighting</li><li data-factor="N19">Replacing the current score with a win-probability model</li><li data-factor="N20">Unpromoted rebuild rules or direct match-importance weights</li><li data-factor="N21">Recent-form-only or time-decayed rankings as the final selection</li><li data-factor="N22">Resampling frequency or mean-minus-standard-deviation as the rank key</li><li data-factor="N23">Contracts, auction prices, nationality and overseas-player limits</li><li data-factor="N24">External performance-data merges</li><li data-factor="N25">Using this ball&#x27;s result, or a fixed top quarter, to label its prior pressure</li></ul></details></div>
+  </section>
+  <section id="method" aria-labelledby="method-title">
+    <div class="section-heading"><div><p class="eyebrow">HOW TO READ THE RESULT</p><h2 id="method-title">Three parts. One transparent score.</h2></div></div>
+    <div class="method-grid">
+      <article class="panel"><span class="method-weight">50%</span><h3>Runs and wickets</h3><p>How good was the contribution for that situation? Was it above the player's usual level? Did it happen repeatedly?</p></article>
+      <article class="panel"><span class="method-weight">20%</span><h3>Skill and errors</h3><p>Effective deliveries and batting responses, recovery after setbacks, and discipline. A label alone is not proof of good or poor technique.</p></article>
+      <article class="panel"><span class="method-weight">30%</span><h3>Big matches</h3><p>The full competitive innings or spell when the team's pre-match stakes are high, including earned rebuilding and defensive credit.</p></article>
+    </div>
+    <div class="limits panel"><h3>What the score does not claim</h3><p>This is a historical, situation-based index, not measured anxiety or a calibrated chance of winning. Small samples and different competition mixes matter. The archive is not complete career history and contains no T20 World Cup data. The checks are not a blind external test or proof of predictive superiority.</p></div>
+    <p class="report-note">For the detailed algorithm, refer to the report.</p>
+  </section>
+</main>
+<footer><span>CLUTCH / SupeRR Selector</span><span>Derived summaries only. Raw competition data is not included.</span><a href="https://github.com/parvvchhabra15/clutch">Repository (access required)</a><a href="plotly-LICENSE.txt">Chart library license</a></footer>
+</body>
+</html>
