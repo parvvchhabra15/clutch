@@ -353,7 +353,7 @@ def build_html(data):
     <p class="report-note">For the detailed algorithm, refer to the report.</p>
   </section>
 </main>
-<footer><span>CLUTCH / SupeRR Selector</span><span>Derived summaries only. Raw competition data is not included.</span><a href="https://github.com/parvvchhabra15/clutch">Repository (access required)</a><a href="plotly-LICENSE.txt">Chart library license</a></footer>
+<footer><span>CLUTCH / SupeRR Selector</span><span>Derived summaries only. Raw competition data is not included.</span><a href="https://github.com/parvvchhabra15/clutch">Source code</a><a href="plotly-LICENSE.txt">Chart library license</a></footer>
 </body>
 </html>'''
 
