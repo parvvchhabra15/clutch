@@ -1,0 +1,91 @@
+{
+  "model": "CLUTCH",
+  "parameters": {
+    "execution": {
+      "bootstrap_samples": 250,
+      "context_prior_events": 80.0,
+      "crunch_floor": 60.0,
+      "execution_share": 0.2,
+      "high_match_share": 0.3,
+      "match_evidence_scale": 4.0,
+      "ordinary_ceiling": 50.0,
+      "outcome_share": 0.5,
+      "player_prior_events": 80.0,
+      "prior_matches": 5.0,
+      "sequence_bonus_limit": 5.0,
+      "signal_scale": 0.2,
+      "usual_reference_share": 0.4
+    },
+    "execution_grace": {
+      "boundary_penalty": 0.15,
+      "effective_credit": 0.1
+    },
+    "high_match": {
+      "ball_share": 0.7,
+      "bootstrap_samples": 250,
+      "gentle_adjustment": true,
+      "gentle_adjustment_cap": 2.0,
+      "match_share": 0.3,
+      "material_help_runs": 10.0,
+      "minimum_legal_balls": 60,
+      "minimum_matches": 6,
+      "minimum_normal_events": 30,
+      "neutral_run_margin": 2.0,
+      "prior_matches": 3.0,
+      "run_scale": 20.0,
+      "stakes_floor": 70.0,
+      "wicket_factor": 0.35
+    },
+    "outcomes": {
+      "absolute_weight": 0.5,
+      "adaptive_runtime": true,
+      "bootstrap_samples": 250,
+      "career_prior_matches": 5.0,
+      "consistency_weight": 0.2,
+      "context_prior_balls": 120.0,
+      "contribution_scale": 1.5,
+      "extended_burst_balls": 36,
+      "high_pressure": 60.0,
+      "hopelessness_scale": 8.0,
+      "known_bowler_prior_balls": 12,
+      "match_evidence_scale": 8.0,
+      "minimum_high_events_per_match": 3,
+      "minimum_normal_events": 30,
+      "minimum_pressure_legal_balls": 60,
+      "minimum_pressure_matches": 6,
+      "neutral_match_margin": 0.1,
+      "normal_pressure_ceiling": 50.0,
+      "par_family_window": 60,
+      "par_prior_innings": 8.0,
+      "par_venue_window": 20,
+      "player_prior_events": 80.0,
+      "prematch_share": 0.35,
+      "pressure_floor": 50.0,
+      "resilience_weight": 0.3,
+      "short_burst_balls": 12,
+      "short_burst_runs_per_ball": 5.0,
+      "sustained_pace_multiplier": 1.6
+    },
+    "refinements": {
+      "absolute_weight": 0.5,
+      "consistency_weight": 0.2,
+      "minimum_effective_matches": 4.0,
+      "rescue_credit_cap": 10.0,
+      "rescue_credit_fraction": 0.5,
+      "rescue_min_balls": 12,
+      "rescue_min_balls_remaining": 24,
+      "rescue_min_partnership": 25,
+      "rescue_min_run_share": 0.35,
+      "rescue_min_runs": 20,
+      "resilience_weight": 0.3
+    }
+  },
+  "dataset_sha256": {
+    "ball_by_ball.csv": "01e2b4379edfbab6a6e456d304cb3c70f554cb312ef93d9588f3f32a82cb396e",
+    "competition_team_player_mapping.csv": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+    "competitions.csv": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+    "matches.csv": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+    "playing_eleven.csv": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+    "teams.csv": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d"
+  }
+}

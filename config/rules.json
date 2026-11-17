@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "sources_accessed_utc_date": "2026-11-13",
+  "points": {
+    "win": 2,
+    "loss": 0,
+    "tie_or_no_result": 1
+  },
+  "points_rule_status": "IPL verified against official clause 16.10; other limited-overs tables use a declared 2/1/0 assumption and emit a flag.",
+  "sources": [
+    {
+      "id": "ipl_official_2026",
+      "url": "https://www.iplt20.com/cms/files/jot2qw8s50z1/7DScv8UxUc6AJcrXDon2yW/bdc93c1c438bfafad464f2a334862d59/1775736835406_TATA_IPL_2026_Match_Playing_Conditions.pdf",
+      "locator": "page 32, clauses 16.10-16.11",
+      "supports": "2/1/0 points, wins before NRR in equal-point ranking, league/playoff separation. No claim that this alone verifies every historical edition."
+    },
+    {
+      "id": "ipl_2022",
+      "url": "https://en.wikipedia.org/wiki/2022_Indian_Premier_League",
+      "locator": "Introduction and Format",
+      "supports": "10 teams, 14 league fixtures per team, 74 total matches; CSK defending champion."
+    },
+    {
+      "id": "ipl_2025",
+      "url": "https://en.wikipedia.org/wiki/2025_Indian_Premier_League",
+      "locator": "Format; Suspension and rescheduling; May 8 fixture",
+      "supports": "Top four playoffs, Q1 second chance, Q2 elimination; schedule revision announced May 12."
+    },
+    {
+      "id": "ipl_2026",
+      "url": "https://en.wikipedia.org/wiki/2026_Indian_Premier_League",
+      "locator": "Introduction and Format",
+      "supports": "Actual 74-match edition, not the previously proposed 84; same playoff pathway."
+    },
+    {
+      "id": "asia_2022",
+      "url": "https://en.wikipedia.org/wiki/2022_Asia_Cup",
+      "locator": "Introduction and tournament stages",
+      "supports": "India defending champion; initial groups followed by Super Four and final."
+    },
+    {
+      "id": "asia_2025",
+      "url": "https://en.wikipedia.org/wiki/2025_Asia_Cup",
+      "locator": "Introduction and Format",
+      "supports": "India defending 2023 champion; two groups of four, top two to Super Four, top two to final. Do not incorrectly use 2022 champion."
+    },
+    {
+      "id": "emerging_2024",
+      "url": "https://en.wikipedia.org/wiki/2024_ACC_Emerging_Teams_Asia_Cup",
+      "locator": "Introduction and Teams",
+      "supports": "Eight participants, group round-robin and knockout, 15 matches."
+    },
+    {
+      "id": "emerging_2025",
+      "url": "https://en.wikipedia.org/wiki/2025_Asia_Cup_Rising_Stars",
+      "locator": "Introduction and Teams",
+      "supports": "Eight participants, group round-robin and knockout, 15 matches."
+    },
+    {
+      "id": "asia_qualifier",
+      "url": "https://en.wikipedia.org/wiki/2022_Asia_Cup_Qualifier",
+      "locator": "Introduction and Summary",
+      "supports": "Four-team round robin for one qualifying place."
+    },
+    {
+      "id": "india_nz_2022",
+      "url": "https://en.wikipedia.org/wiki/Indian_cricket_team_in_New_Zealand_in_2022%E2%80%9323",
+      "locator": "Introduction and T20I series",
+      "supports": "Three scheduled T20Is; first fixture November 18 absent from supplied match table."
+    },
+    {
+      "id": "india_sa_2023",
+      "url": "https://en.wikipedia.org/wiki/Indian_cricket_team_in_South_Africa_in_2023%E2%80%9324",
+      "locator": "Introduction and T20I series",
+      "supports": "Three scheduled T20Is; first fixture December 10 absent from supplied match table."
+    },
+    {
+      "id": "kkr_vice_2025",
+      "url": "https://en.wikipedia.org/wiki/Venkatesh_Iyer",
+      "locator": "Domestic career, 2025 IPL edition",
+      "supports": "Venkatesh Iyer was named vice-captain for the 2025 KKR edition. The exact announcement timestamp was not verified; application is explicitly labelled a season-scoped secondary-source reconstruction."
+    }
+  ],
+  "series_lengths": {
+    "1646": 3,
+    "2047": 3
+  },
+  "prior_champions": {
+    "1358": "1",
+    "1533": "18",
+    "3133": "18"
+  },
+  "rounds": {
+    "1533": {
+      "initial_group_matches": 6,
+      "super_four_end": 12,
+      "group_size": 3
+    },
+    "3133": {
+      "initial_group_matches": 12,
+      "super_four_end": 18,
+      "group_size": 4
+    },
+    "2670": {
+      "initial_group_matches": 12,
+      "group_size": 4
+    },
+    "3289": {
+      "initial_group_matches": 12,
+      "group_size": 4
+    }
+  },
+  "fixture_replacements": [
+    {
+      "original_match_id": "40751",
+      "replacement_match_id": "43057",
+      "effective_date": "2025-05-12",
+      "source_id": "ipl_2025",
+      "reason": "Abandoned Punjab-Delhi fixture replayed from scratch; do not award an additional league point for the superseded record."
+    }
+  ],
+  "vice_captains": [
+    {
+      "comp_id": "2725",
+      "team_id": "8",
+      "player_id": "7544",
+      "known_from": "2025-03-22",
+      "valid_from": "2025-03-22",
+      "valid_to": "2025-06-03",
+      "source_id": "kkr_vice_2025",
+      "evidence_status": "season_scoped_secondary_source",
+      "date_basis": "Season opener used for retrospective season-role applicability; not a verified announcement timestamp."
+    }
+  ],
+  "home_expectation_evidence": [],
+  "coverage_notes": [
+    "Unlisted vice-captain roles and the empty home-expectation register mean unverified, not confirmed absent.",
+    "Bilateral planned lengths not explicitly listed above are inferred from archive fixture slots and flagged; this is not an externally verified complete schedule.",
+    "Use only league/group future fixtures, never eventual playoff qualifiers, to reconstruct a pre-match objective.",
+    "Same-day results are withheld because reliable first-ball/end timestamps are not supplied.",
+    "Qualification uses conservative point/win bounds; exact live NRR is not reconstructed.",
+    "The 2025 replacement's announcement date controls which fixture version is available."
+  ]
+}

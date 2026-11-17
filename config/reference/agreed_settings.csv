@@ -1,0 +1,6 @@
+setting,value,unit,status,notes
+expectation_weight,10,index_points,agreed_reference,User-specified weight.
+recent_underperformance_weight,5,index_points,agreed_reference,User-specified weight.
+rivalry_weight,15,index_points,agreed_reference,User-specified weight.
+early_clinch_stakes_score,0.60,normalised_0_to_1,agreed_reference,When early clinching is the applicable consequence; the opposing team can have different stakes.
+second_chance_qualifier_stakes_score,0.60,normalised_0_to_1,agreed_reference,Only where a genuine second chance exists; not every match labelled Qualifier.

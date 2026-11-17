@@ -1,0 +1,20 @@
+﻿_how_to_fill,rivalry_level,definition,rivalry_0_10,optional_example,notes,_status
+Reference only: no special rivalry has zero rivalry contribution.,none,No established rivalry beyond ordinary sporting competition.,0,,,reference_zero
+"Set the pressure intensity for this level, not a list of factual rivalries. Use 0-10 or CALIBRATE; optional examples can explain your preference.",established,Recognised recurring rivalry with significance beyond this individual fixture.,,,,to_fill
+"Set the pressure intensity for this level, not a list of factual rivalries. Use 0-10 or CALIBRATE; optional examples can explain your preference.",major,Strong sustained rivalry with documented elevated attention and expectations.,,,,to_fill
+"Set the pressure intensity for this level, not a list of factual rivalries. Use 0-10 or CALIBRATE; optional examples can explain your preference.",exceptional,One of the most intense established rivalries within the covered cricket context.,,,,to_fill
+,,,,,,
+,,,,,,
+INDIA VS PAK,10,,,,,
+AUS VS ENG,9,,,,,
+IND VS AUS,8,,,,,
+IND VS ENG,6.5,,,,,
+AUS VS SOUTH AFRICA,6,,,,,
+AUS VS NZ,6,,,,,
+RCB VS CSK,8,,,,,
+CSK VS MI,8,,,,,
+KKR VS RCB,7,,,,,
+KKR VS MI,6,,,,,
+RCB VS MI,7,,,,,
+RR VS PBKS,6,,,,,
+OTHERS ,2.5,(NO RIVALRY),,,,

@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Data and scorekeeping",
+    "kind": "checks",
+    "items": [
+      ["D01", "Unchanged source files; correct match, team and player identities"],
+      ["D02", "Delivery order and a separate legal-ball count"],
+      ["D03", "Numeric extras; team runs versus bowler runs"],
+      ["D04", "Credited wickets; no guessed run-out or retirement blame"],
+      ["D05", "Scoreboard, innings-ending, ball-count and result-margin checks"],
+      ["D06", "Rain and revised-target timing"],
+      ["D07", "Missing information stays unknown, not zero"],
+      ["D08", "Usable performances in no-result matches"],
+      ["D09", "Earlier dates only; no same-day or future information"],
+      ["D10", "Recorded facts, chosen weights and estimates kept separate"],
+      ["D11", "Full scorecards retained beside competitive-play totals"]
+    ]
+  },
+  {
+    "title": "Before the match",
+    "kind": "scoring",
+    "items": [
+      ["P01", "Competition type and importance: IPL, senior, qualifying and emerging cricket"],
+      ["P02", "Gradual competition-importance adjustment"],
+      ["P03", "Championship finals"],
+      ["P04", "Elimination, Eliminators, semi-finals and a place in the final"],
+      ["P05", "Qualifier 1 and a genuine second chance"],
+      ["P06", "Series deciders, survival, early wins, undecided series and dead rubbers"],
+      ["P07", "Earlier standings, remaining fixtures and win/loss consequences"],
+      ["P08", "Qualifying versus finishing in the top two"],
+      ["P09", "The practical IPL 14-point target, not guaranteed qualification"],
+      ["P10", "Different stakes for the two teams"],
+      ["P11", "Defending-champion expectations"],
+      ["P12", "Favourite expectations from earlier team results"],
+      ["P13", "Longer-term team history, excluding the latest five results"],
+      ["P14", "Home expectations only when verified; inactive in this dataset"],
+      ["P15", "Strongest expectation only; expectation/form/rivalry share an 8-point limit"],
+      ["P16", "Last five results compared with what was expected"],
+      ["P17", "Stated rivalry ratings and an explicit default"],
+      ["P18", "Opponent strength, tempered when history is limited"],
+      ["P19", "Past meetings versus earlier expectations, not raw head-to-head wins"],
+      ["P20", "Fixture uncertainty, replacement matches and announcement dates"],
+      ["P21", "Possible versus guaranteed qualification; uncertain net-run-rate ties"]
+    ]
+  },
+  {
+    "title": "Player responsibility",
+    "kind": "scoring",
+    "items": [
+      ["R01", "Captain responsibility"],
+      ["R02", "Verified vice-captain responsibility; never both leadership roles"],
+      ["R03", "Earlier batting and bowling ability, calculated separately"],
+      ["R04", "Likely balls faced/bowled and expected share of the team's job"],
+      ["R05", "Remaining batting strength after dismissed players are removed"],
+      ["R06", "Bowler quotas, the current over and feasible non-consecutive future overs"],
+      ["R07", "Confirmed XI, observed alternatives and flagged missing-data fallbacks"],
+      ["R08", "Reliance capped at 25%, combined responsibility at 35%, player pressure at 100"]
+    ]
+  },
+  {
+    "title": "Before each delivery",
+    "kind": "scoring",
+    "items": [
+      ["L01", "Score, target and runs needed"],
+      ["L02", "Legal balls left; powerplay, middle overs and death overs"],
+      ["L03", "Wickets in hand and shortage of batting options"],
+      ["L04", "Projected first-innings total versus the venue's usual total"],
+      ["L05", "Required rate versus normal scoring pace"],
+      ["L06", "The bowler's own run allowance while defending"],
+      ["L07", "New versus settled striker"],
+      ["L08", "Wickets lost close together"],
+      ["L09", "Consecutive legal team dot balls"],
+      ["L10", "Recent boundaries and four-plus-run balls"],
+      ["L11", "Partnership runs, balls and resets after wickets"],
+      ["L12", "Free hits and their effect on runs, wickets and pressure"],
+      ["L13", "A brief hitting burst versus sustaining a high rate"],
+      ["L14", "Reduced weight for very easy or near-impossible chases"],
+      ["L15", "35% pre-match pressure plus 65% in-match pressure"],
+      ["L16", "Starting-task pressure; no extra reward for self-created difficulty"],
+      ["L17", "When sixes alone can no longer win or tie the chase"],
+      ["L18", "Extras or unusual runs reopening a chase; clinching balls and errors still count"]
+    ]
+  },
+  {
+    "title": "Runs and wickets",
+    "kind": "scoring",
+    "items": [
+      ["O01", "Comparable role, competition, season, innings, phase and batting position"],
+      ["O02", "Earlier competition and venue scoring rates"],
+      ["O03", "The current opponent's earlier batting or bowling ability"],
+      ["O04", "Useful chase runs capped at the remaining need"],
+      ["O05", "Wicket value from balls left, wickets left and batter ability"],
+      ["O06", "The player's earlier ordinary-pressure performance"],
+      ["O07", "Runs scored/saved and wickets, charged to the correct player"],
+      ["O08", "Improvement over usual performance, limited by available history"],
+      ["O09", "A late highlight cannot erase a poor whole innings or spell"],
+      ["O10", "Repeated good, neutral and poor contributions, not team win percentage"],
+      ["O11", "Continuous pressure weights above 50; high-pressure label from 60"],
+      ["O12", "Limited weight per match; small samples stay closer to neutral"],
+      ["O13", "50% situation-adjusted quality, 30% above-usual play, 20% consistency"],
+      ["O14", "First-ball failures remain in the record"]
+    ]
+  },
+  {
+    "title": "Skill and errors",
+    "kind": "scoring",
+    "items": [
+      ["X01", "Valid delivery labels; pace/spin consistency; doubtful labels left ungraded"],
+      ["X02", "Wides, no-balls and confirmed beamers take priority over good-looking outcomes"],
+      ["X03", "Effective yorkers, variations and ordinary deliveries; death-over context"],
+      ["X04", "Useful batting responses, difficult balls and defence during a rebuild"],
+      ["X05", "Scoring after dots and recovery after boundaries; strongest bonus only"],
+      ["X06", "Full-toss uncertainty: modest effective-ball credit, boundary costs, no guessed height"],
+      ["X07", "No automatic easy-ball batting bonus for full tosses; illegal-opportunity safeguards"],
+      ["X08", "Earlier similar deliveries and personal history, matched to the task"],
+      ["X09", "Big-match, death-over, severe, collapse, dot-chain and run-leak situations"],
+      ["X10", "Annotation coverage, limited match weight and small-sample adjustment"]
+    ]
+  },
+  {
+    "title": "Big-match performances",
+    "kind": "scoring",
+    "items": [
+      ["M01", "Own-team pre-match pressure above 70; importance weights both good and poor play"],
+      ["M02", "The full competitive innings or spell, not just dramatic balls"],
+      ["M03", "Run target fixed at the player's first opportunity in each over"],
+      ["M04", "Normal scoring pace when batting first"],
+      ["M05", "Required chase pace with limited blame for an earlier shortfall"],
+      ["M06", "The tighter of normal economy and the runs affordable while defending"],
+      ["M07", "Limited secondary wicket value and bounded batting-survival credit"],
+      ["M08", "A real, still-live collapse with time to rebuild"],
+      ["M09", "Enough personal runs/balls and partnership growth or run share"],
+      ["M10", "Positive rebuilding quality; half-credit protection capped at 10"],
+      ["M11", "Inherited defensive difficulty, enough balls and genuinely controlled scoring"],
+      ["M12", "Individual failure or verified help in a win, including closing actions"],
+      ["M13", "Small result adjustment: at most 2 big-match points or 0.6 final points"],
+      ["M14", "Match-importance weighting and a three-match starting evidence allowance"]
+    ]
+  },
+  {
+    "title": "Eligibility and reliability",
+    "kind": "checks",
+    "items": [
+      ["Q01", "At least six relevant matches, 60 legal balls and 30 ordinary-play events"],
+      ["Q02", "At least four effective appearances; evidence spread across matches"],
+      ["Q03", "Positive full-performance quality plus supported pressure-ball or big-match results"],
+      ["Q04", "Separate score and percentile; the 50/20/30 mix is not a win probability"],
+      ["Q05", "Separate batting/bowling lists, unique IDs and no player-specific overrides"],
+      ["Q06", "95% individual score ranges from 250 match redraws"],
+      ["Q07", "Joint rank and top-ten stability from 1,000 shared redraws; tied places handled fairly"],
+      ["Q08", "Sensitivity to weights, years, competition scope, innings and recent form"],
+      ["Q09", "Earlier-to-later comparisons; eligibility based only on earlier matches"],
+      ["Q10", "Independent reconstruction of scores, components and source totals"],
+      ["Q11", "Seeded test cases, unit/functional/regression tests and cricket-law checks"],
+      ["Q12", "Remove-one-match checks and both positive and negative match examples"],
+      ["Q13", "Rejected alternatives retained as evidence, not silently promoted"],
+      ["Q14", "Dataset coverage, submission names and portal eligibility checked separately"]
+    ]
+  },
+  {
+    "title": "Considered, but not separately scored",
+    "kind": "not_scored",
+    "items": [
+      ["N01", "Actual anxiety, confidence or a claimed psychological cause"],
+      ["N02", "Measured crowd hostility, media attention or publicity"],
+      ["N03", "Rarity, prize money, national emotion or upset stories"],
+      ["N04", "Avoiding a whitewash or facing a former team"],
+      ["N05", "Exact net-run-rate, winning-margin or chase-by-over targets"],
+      ["N06", "Live updates from other matches and bonus-point targets"],
+      ["N07", "Exact field positions, boundary sizes, timeouts and over-rate penalties"],
+      ["N08", "Actual pitch, weather, dew, wet ball and venue familiarity"],
+      ["N09", "Unverified DLS timing, reduced budgets and restart stress"],
+      ["N10", "Super Overs mixed with regular innings"],
+      ["N11", "Guessed effects of dropped catches, misfields, DRS or disputed calls"],
+      ["N12", "Unmeasured injury, fatigue, travel or recovery condition"],
+      ["N13", "Debuts, first finals, selection pressure, farewells, milestones or awards"],
+      ["N14", "Private plans, strike farming, assigned roles or intended tail protection"],
+      ["N15", "Unobserved future bowling plans or forced matchups"],
+      ["N16", "Separate handedness, unfamiliar-role, promotion or personal-familiarity penalties"],
+      ["N17", "Extra boundary-drought, rising-required-rate or expensive-over bonuses"],
+      ["N18", "Earlier flat pre-match weighting"],
+      ["N19", "Replacing the current score with a win-probability model"],
+      ["N20", "Unpromoted rebuild rules or direct match-importance weights"],
+      ["N21", "Recent-form-only or time-decayed rankings as the final selection"],
+      ["N22", "Resampling frequency or mean-minus-standard-deviation as the rank key"],
+      ["N23", "Contracts, auction prices, nationality and overseas-player limits"],
+      ["N24", "External performance-data merges"],
+      ["N25", "Using this ball's result, or a fixed top quarter, to label its prior pressure"]
+    ]
+  }
+]

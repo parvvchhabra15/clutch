@@ -1,0 +1,142 @@
+﻿comp_id,comp_name,season,match_format,competition_family_id,competition_family,recorded_matches_not_scheduled,first_recorded_match_date,last_recorded_match_date
+1551,Asia Cup T20 Qualifiers 2022,2022,T20I,asia_cup_qualifying,Asia Cup qualifying,6,2022-08-20,2022-08-24
+2670,Mens T20 Emerging Teams Asia Cup 2024,2024,T20,emerging_t20,Emerging / rising-stars T20,15,2024-10-18,2024-10-27
+3289,Asia Cup Rising Stars 2025,2025,T20,emerging_t20,Emerging / rising-stars T20,15,2025-11-14,2025-11-23
+1358,IPL 2022,2022,T20,ipl,IPL,74,2022-03-26,2022-05-29
+1715,IPL 2023,2023,T20,ipl,IPL,74,2023-03-31,2023-05-29
+2193,IPL 2024,2024,T20,ipl,IPL,74,2024-03-22,2024-05-26
+2725,IPL 2025,2025,T20,ipl,IPL,75,2025-03-22,2025-06-03
+3298,IPL 2026,2026,T20,ipl,IPL,74,2026-03-28,2026-05-31
+1533,Mens Twenty20 Asia Cup 2022,2022,T20I,senior_asia_cup,Senior Asia Cup,13,2022-08-27,2022-09-11
+3133,Asia Cup 2025,2025,T20I,senior_asia_cup,Senior Asia Cup,19,2025-09-09,2025-09-28
+1543,Afghanistan in Ireland T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2022-08-09,2022-08-17
+1458,Afghanistan in Zimbabwe T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-06-11,2022-06-14
+1584,Australia in India T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-09-20,2022-09-25
+1435,Australia in Sri Lanka T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-06-07,2022-06-11
+1601,Bangladesh in United Arab Emirates T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2022-09-25,2022-09-27
+1452,Bangladesh in West Indies T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-07-02,2022-07-07
+1523,Bangladesh in Zimbabwe T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-07-30,2022-08-02
+1611,England in Australia T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-10-09,2022-10-14
+1595,England in Pakistan T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,7,2022-09-20,2022-10-02
+1331,England in West Indies T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2022-01-22,2022-01-30
+1494,India in England T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-07-07,2022-07-10
+1474,India in Ireland T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2022-06-26,2022-06-28
+1499,India in West Indies T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2022-07-29,2022-08-07
+1512,New Zealand in Ireland T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-07-18,2022-07-22
+1534,New Zealand in Netherlands T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2022-08-04,2022-08-05
+1537,New Zealand in West Indies T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-08-11,2022-08-15
+1517,South Africa in England T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-07-27,2022-07-31
+1439,South Africa in India T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2022-06-09,2022-06-19
+1531,South Africa vs Ireland T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2022-08-03,2022-08-05
+1345,Sri Lanka in Australia T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2022-02-11,2022-02-20
+1603,West Indies in Australia T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2022-10-05,2022-10-07
+1335,West Indies in India T20I Series 2022,2022,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-02-16,2022-02-20
+1646,India in New Zealand T20I Series 2022/23,2022/23,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2022-11-20,2022-11-22
+1599,South Africa in India T20I Series 2022/23,2022/23,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2022-09-28,2022-10-04
+1885,Afghanistan in Bangladesh T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2023-07-14,2023-07-16
+1792,Afghanistan v Pakistan T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-03-24,2023-03-27
+2046,Australia in India T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2023-11-23,2023-12-03
+2000,Australia in South Africa T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-08-30,2023-09-03
+2058,Bangladesh in New Zealand T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-12-27,2023-12-31
+1742,England in Bangladesh T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-03-09,2023-03-14
+2048,England in West Indies T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2023-12-13,2023-12-22
+1998,India in Ireland T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2023-08-18,2023-08-20
+2047,India in South Africa T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2023-12-12,2023-12-14
+1913,India in West Indies T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2023-08-03,2023-08-13
+1769,Ireland in Bangladesh T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-03-27,2023-03-31
+1709,Ireland in Zimbabwe T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-01-12,2023-01-15
+1999,New Zealand in England T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,4,2023-08-30,2023-09-05
+1700,New Zealand in India T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-01-27,2023-02-01
+1799,New Zealand in Pakistan T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2023-04-14,2023-04-24
+1997,New Zealand in United Arab Emirates T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-08-17,2023-08-20
+1698,Sri Lanka in India T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-01-03,2023-01-07
+1719,Sri Lanka in New Zealand T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-04-02,2023-04-08
+1718,West Indies in South Africa T20I Series 2023,2023,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-03-25,2023-03-28
+2188,Ireland in Zimbabwe T20I Series 2023/24,2023/24,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2023-12-07,2023-12-10
+2059,Afghanistan in India T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-01-11,2024-01-17
+2267,Afghanistan in Sri Lanka T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-02-17,2024-02-21
+2753,Afghanistan in Zimbabwe T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-12-09,2024-12-12
+2269,Afghanistan v Ireland T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-03-15,2024-03-18
+2548,Australia in England T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-09-11,2024-09-15
+2062,Australia in New Zealand T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-02-21,2024-02-25
+2561,Australia in Scotland T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-09-04,2024-09-07
+2512,Bangladesh in India T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-10-06,2024-10-12
+2457,Bangladesh in West Indies T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-12-16,2024-12-20
+2455,England in West Indies T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2024-11-10,2024-11-18
+2718,India in South Africa T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,4,2024-11-08,2024-11-15
+2542,India in Sri Lanka T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-07-27,2024-07-30
+2372,India in Zimbabwe T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2024-07-06,2024-07-14
+2562,Ireland v South Africa T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2024-09-27,2024-09-29
+2350,New Zealand in Pakistan T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2024-04-18,2024-04-27
+2716,New Zealand in Sri Lanka T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2024-11-09,2024-11-10
+2387,Pakistan in Australia T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-11-14,2024-11-18
+2354,Pakistan in England T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,4,2024-05-22,2024-05-30
+2395,Pakistan in Ireland T20I series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-05-10,2024-05-14
+2060,Pakistan in New Zealand T20I series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2024-01-12,2024-01-21
+2442,Pakistan in South Africa T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-12-10,2024-12-14
+2722,Pakistan in Zimbabwe T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-12-01,2024-12-05
+2453,South Africa in West Indies T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-08-24,2024-08-28
+2452,South Africa in West Indies T20I Series [May 2024] 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-05-24,2024-05-27
+2305,Sri Lanka in Bangladesh T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-03-04,2024-03-09
+2061,West Indies in Australia T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-02-09,2024-02-13
+2692,West Indies in Sri Lanka T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-10-13,2024-10-17
+2371,Zimbabwe in Bangladesh T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2024-05-03,2024-05-12
+2229,Zimbabwe in Sri Lanka T20I Series 2024,2024,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-01-14,2024-01-18
+2755,Sri Lanka in New Zealand T20I Series 2024/25,2024/25,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2024-12-28,2025-01-02
+3254,Afghanistan in Zimbabwe T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-10-29,2025-11-02
+3228,Afghanistan v Bangladesh T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-10-02,2025-10-05
+3197,Australia in New Zealand T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-10-01,2025-10-04
+2874,Australia in West Indies T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2025-07-20,2025-07-28
+2973,Bangladesh in Pakistan T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-05-28,2025-06-01
+3020,Bangladesh in Sri Lanka T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-07-10,2025-07-16
+2975,Bangladesh in United Arab Emirates T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-05-17,2025-05-21
+2513,England in India T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2025-01-22,2025-02-02
+3174,England in Ireland T20I series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-09-17,2025-09-21
+3226,England in New Zealand T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-10-18,2025-10-23
+2915,India in Australia T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2025-10-29,2025-11-08
+2940,India in Bangladesh T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,0,,
+3251,Ireland in Bangladesh T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-11-27,2025-12-02
+2801,Ireland in Zimbabwe T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-02-22,2025-02-25
+3190,Nepal v West Indies T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-09-27,2025-09-30
+3163,Netherlands in Bangladesh T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-08-30,2025-09-03
+3074,Pakistan in Bangladesh T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-07-20,2025-07-24
+2793,Pakistan in New Zealand T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2025-03-16,2025-03-26
+2875,Pakistan in West Indies T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-07-31,2025-08-03
+2912,South Africa in Australia T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-08-10,2025-08-16
+2628,South Africa in England T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-09-10,2025-09-14
+2921,South Africa in India T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2025-12-09,2025-12-19
+3223,South Africa in Pakistan T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-10-28,2025-11-01
+3162,Sri Lanka in Zimbabwe T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-09-03,2025-09-07
+3241,West Indies in Bangladesh T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-10-27,2025-11-01
+2626,West Indies in England T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-06-06,2025-06-10
+2873,West Indies in Ireland T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2025-06-12,2025-06-15
+3282,West Indies in New Zealand T20I Series 2025,2025,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2025-11-05,2025-11-13
+3405,Afghanistan v Sri Lanka T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,0,,
+3331,Afghanistan v West Indies T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-01-19,2026-01-22
+3787,Afghanistan v Zimbabwe T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-10-27,2026-11-01
+3713,Afghanistan vs India in India T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-09-13,2026-09-17
+3482,Australia in Bangladesh T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-06-17,2026-06-21
+3358,Australia in Pakistan T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-01-29,2026-02-01
+3568,Bangladesh in Zimbabwe T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-07-15,2026-07-19
+3334,England in Sri Lanka T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-01-30,2026-02-03
+3126,India in England T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2026-07-01,2026-07-11
+3446,India in Ireland T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2026-06-26,2026-06-28
+3690,India in New Zealand T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2026-10-22,2026-11-01
+3465,India in Zimbabwe T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-07-23,2026-07-26
+3313,Ireland in United Arab Emirates T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,2,2026-01-29,2026-01-31
+3433,New Zealand in Bangladesh T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-04-27,2026-05-02
+3329,New Zealand in India T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2026-01-21,2026-01-31
+3317,Pakistan in Sri Lanka T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-01-07,2026-01-12
+3395,South Africa in New Zealand T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2026-03-15,2026-03-25
+3128,Sri Lanka in England T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-09-15,2026-09-19
+3765,Sri Lanka in Pakistan T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-10-09,2026-10-13
+3464,Sri Lanka in West Indies T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-06-12,2026-06-15
+3473,United Arab Emirates in Nepal T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,0,,
+3450,West Indies in India T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,5,2026-10-06,2026-10-17
+2906,West Indies in South Africa T20I Series 2026,2026,T20I,senior_bilateral_t20i,Senior bilateral T20I,3,2026-01-27,2026-02-01
+1608,New Zealand T20I Tri Series 2022/23,2022/23,T20I,senior_tri_series,Senior T20I tri-series,7,2022-10-07,2022-10-14
+2398,Netherlands Tri-Nation T20I Series 2024,2024,T20I,senior_tri_series,Senior T20I tri-series,6,2024-05-18,2024-05-24
+2605,Netherlands Tri-Nation T20I Series [Aug 2024] 2024,2024,T20I,senior_tri_series,Senior T20I tri-series,6,2024-08-23,2024-08-28
+3288,Pakistan T20I Tri-Series 2025,2025,T20I,senior_tri_series,Senior T20I tri-series,7,2025-11-17,2025-11-29
+3159,United Arab Emirates T20I Tri-Series 2025,2025,T20I,senior_tri_series,Senior T20I tri-series,7,2025-08-29,2025-09-07
+3739,India in Japan T20I Match 2026,2026,T20I,standalone_t20i,Standalone senior T20I,1,2026-09-22,2026-09-22
